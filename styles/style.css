@@ -1,0 +1,219 @@
+/*--------Font--------*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Playfair+Display&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+/* common style  and utilities*/
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin: 80px;
+    margin-bottom: 30px;
+   
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 80px;
+}
+
+/*--------Influencer-journey---------*/
+.influencer-house{
+    display: flex;
+}
+.journey-begins{
+    width: 582px;
+    height: 270px;
+    margin: 80px;
+}
+.influencer-title{
+    font-size: 52px;
+   
+}
+p{
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(143, 25, 12), rgb(214, 32, 0));
+    color: whitesmoke;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 5px 10px;
+}
+.arrow-button{
+    margin: 10px;
+}
+.home-image:hover img{
+    transform: rotate(360deg) scale(1.5);
+    transition: transform 1s ease-in-out;  
+}
+.home-image{
+    width: 440px;
+    height: 414px;
+    margin-top: 45px;
+    margin-left: 133px;
+    margin-right: 5%;
+}
+.home-image img{
+    width: 95%;
+}
+/*-------------------
+ Popular Collection
+--------------------*/
+ .pop-collection{
+     font-size: 28px;
+     text-align: center;
+    
+ }
+ .collections{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-row-gap:30px ;
+     grid-column-gap:30px;
+     margin:80px;
+   
+ }
+
+.products{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 25px;
+    margin-right:2px;
+    padding-bottom:35px;
+
+}
+
+ .product img{
+    width: 300px;
+    height: 256px;
+    padding-right: 15px;
+ }
+ h3{
+     font-size: 28px;
+ }
+ .price{
+     font-size: 24px;
+ }
+ .fa-star{
+     font-size: 12px;  
+ }
+ .fa-star.filled{
+     color: #dd193a;
+ }
+ .fa-star.empty{
+     color: #dad5d5;
+ }
+ .product-information{
+     font-size: 16px;
+     margin-bottom: 50%;
+ }
+ .see-more{
+     margin-top:20px ;
+     margin-left:85%;
+     text-decoration: none;
+     font-size: px;
+     color: #dd193a;
+     
+ }
+
+/*-------------
+Upcoming Product
+----------------*/
+.upcomming-future-product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.ufproduct{
+    margin-top: 90px;
+    padding-left: 170px;
+   
+}
+.ufproduct img{
+    width: 65%;
+    border-radius: 5px;
+}
+.ufproduct-information{
+    width: 610px;
+    height: 224px;
+    margin-top: 80px;
+    margin-right:165px;
+    padding-left:10px;
+    padding-right: 40px;
+    
+}
+.li-color{
+    color:#dd193a
+}
+/*------------
+ Footer style
+--------------*/
+
+footer{
+    width: 100%;
+    height: 240px;
+    background-color:#0A0826;
+}
+.fo-tag{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding-top:50px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(13, 227, 255);
+}
+.fo-icons{
+    text-align: center;
+    color: white;
+}
+.fo-icon{
+    padding-left: 15px;
+}
+
+/*--------------
+Tablet devices
+---------------*/
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+        margin-left:60% ;
+    }
+    .influencer-house{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+     hr{
+         width:100%;
+     }  
+
+    .collections{
+        grid-template-columns:repeat(2,1fr);
+        }
+    .see-more{
+       
+    }
+    .upcomming-future-product{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width:200%;
+    }
+}
+
+
