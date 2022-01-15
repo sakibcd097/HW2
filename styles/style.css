@@ -182,6 +182,42 @@ footer{
     padding-left: 15px;
 }
 
+
+/*---------------
+  Media Queries
+----------------*/
+
+
+/*------Mobile devices------*/
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+        
+    }
+    .influencer-journey{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+     hr{
+         width: 180%;
+     }   
+
+    .collections{
+        grid-template-columns:repeat(1,1fr);
+        }
+    .see-more{
+        }
+    .upcomming-product{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width:200%;
+    }
+}
+
 /*--------------
 Tablet devices
 ---------------*/
@@ -198,14 +234,12 @@ Tablet devices
         }
      hr{
          width:100%;
-     }  
+     }   
 
     .collections{
         grid-template-columns:repeat(2,1fr);
         }
-    .see-more{
-       
-    }
+  
     .upcomming-future-product{
         width: 100%;
         display: flex;
@@ -215,5 +249,3 @@ Tablet devices
         width:200%;
     }
 }
-
-
