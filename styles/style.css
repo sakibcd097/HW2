@@ -190,15 +190,19 @@ footer{
     .collections{
         grid-template-columns:repeat(1,1fr);
         }
-    .see-more{
+        .pop-collection{
+            margin-top: 50%;
         }
-    .upcomming-product{
+    .upcomming-future-product{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+    
+
     footer{
         width:200%;
+        margin-top: 50%;
     }
 }
 
@@ -227,5 +231,6 @@ footer{
     }
     footer{
         width:200%;
+        margin-top: 50%;
     }
 }
