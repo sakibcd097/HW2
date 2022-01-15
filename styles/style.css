@@ -1,7 +1,5 @@
-/*--------Font--------*/
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Playfair+Display&family=Poppins:wght@400;500&family=Roboto&display=swap');
 
-/* common style  and utilities*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Playfair+Display&family=Poppins:wght@400;500&family=Roboto&display=swap');
 
 body{
     font-family: 'Outfit', sans-serif;
@@ -20,8 +18,6 @@ hr{
     border: 1px solid #D1D1D1;
     margin: 80px;
 }
-
-/*--------Influencer-journey---------*/
 .influencer-house{
     display: flex;
 }
@@ -63,9 +59,7 @@ p{
 .home-image img{
     width: 95%;
 }
-/*-------------------
- Popular Collection
---------------------*/
+
  .pop-collection{
      font-size: 28px;
      text-align: center;
@@ -126,9 +120,6 @@ p{
      
  }
 
-/*-------------
-Upcoming Product
-----------------*/
 .upcomming-future-product{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -155,9 +146,7 @@ Upcoming Product
 .li-color{
     color:#dd193a
 }
-/*------------
- Footer style
---------------*/
+
 
 footer{
     width: 100%;
@@ -183,12 +172,7 @@ footer{
 }
 
 
-/*---------------
-  Media Queries
-----------------*/
 
-
-/*------Mobile devices------*/
 @media only screen and (max-width: 688px) {
     .container{
         width: 100%;
@@ -217,10 +201,6 @@ footer{
         width:200%;
     }
 }
-
-/*--------------
-Tablet devices
----------------*/
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
